@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/ecdi', function () {
-    return view('Expert Cyber Defense Inte');
+    // return view('welcome');
+    return ('hello');
 });
